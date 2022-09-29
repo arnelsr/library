@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+    <link href="styles.css" rel="stylesheet">
+    
+</head>
+<body>
+    <script src="script.js" defer ></script>
+    <h1>My Library</h1>
+    <h2>Add New Book:</h2>
+    <div class="container">
+        
+        
+        <div class="new-book-form-container" id="new-book-form-container">
+
+            <form>
+                
+                <label for="title">Title:</label><br>
+                <input type="text" id="title" name="title" required><br>
+                <label for="author">Author:</label><br>
+                <input type="text" id="author" name="author" required><br>
+                <label for="pages">Pages:</label><br>
+                <input type="text" id="pages" name="pages" required><br>
+                <h3>Have you read this book?</h3>
+                <input type="radio" id="read" name="readNotRead" value="Yes">
+                <label for="read">Yes</label><br>
+                <input type="radio" id="notRead" name="readNotRead" value="No">
+                <label for="notRead">No</label><br>
+                <input type="button" value="Add Book" id="addButton">
+            </form>
+        </div>
+        <br>
+        <h2>Book Collection:</h2>
+        <div class="booksList" id="booksList">
+
+        </div>
+    
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 200px;
+    padding-right:200px;
+    background-color: rgb(228, 234, 248);
+}
+h1{
+    text-align: center;
+    grid-column: 1 / span 5;
+}
+.new-book-form-container {
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+form{
+    border-style: solid;
+    border-radius: 8px;
+    grid-column: 1/2;
+    padding: 15px;
+    background-color: rgb(220, 220, 116);
+}
+.booksList{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap:20px;
+    padding-top: 20px;
+}
+.bookCard{
+    border-style: solid;
+    border-radius: 8px;
+    grid-column: 1/2;
+    padding-left: 10px;
+}
+
+.para{
+    border-style: solid;
+    border-radius: 8px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:15px;
+    background-color: rgb(227, 134, 134);
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+button, #addButton{
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: aqua;
+}
