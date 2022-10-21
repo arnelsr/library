@@ -48,3 +48,12 @@ button, #addButton{
     border-radius: 8px;
     background-color: aqua;
 }
+input:invalid {
+    box-shadow: 0 0 5px 1px red;
+  }
+button:hover {
+    cursor:pointer;
+}
+#addButton:hover{
+    cursor:pointer;
+}

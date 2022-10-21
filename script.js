@@ -106,6 +106,7 @@ function printBooks(myLibrary) {
 }
 //add book button
 function addBook(){
+
     let newBook = new Book();
     newBook.title = document.getElementById('title').value;
     newBook.author = document.getElementById('author').value;
@@ -159,3 +160,4 @@ document.addEventListener('click',function(e){
         printBooks(myLibrary);
      }
  });
+
